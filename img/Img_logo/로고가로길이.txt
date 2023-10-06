@@ -1,0 +1,6 @@
+로고의 가로길이 / 장치의 가로픽셀수 * 100 = 
+
+
+background-size : 30%
+background-position 100% 90%
+background-repeat: no-repeat

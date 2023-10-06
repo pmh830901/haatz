@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 뷰포트(viewport) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- swiper.css cdn으로 연결 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- 사용자 정의 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 파비콘 넣기 -->
+    <link rel="shortcut icon" href="img/Img_logo/favicon1.png">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <!-- swiper.js cdn으로 연결 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- gasp 플러그인 연결 -->
+    <script src="js/gsap.min.js"></script>
+    <!--사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+    <title>HAATZ</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="center">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="index.html"></a>
+                </div>
+                <!-- 내비게이션 -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">기업소개</a>
+                            <ul class="sub">
+                                <li><a href="#">하츠소개</a></li>
+                                <li><a href="#">사업소개</a></li>
+                                <li><a href="#">투자정보</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                                <li><a href="#">인재채용</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">제품소개</a>
+                            <ul class="sub">
+                                <li><a href="#">우리집에 맞는 하츠제품</a></li>
+                                <li><a href="#">주방가전</a></li>
+                                <li><a href="#">하츠바스</a></li>
+                                <li><a href="#">공기청정가전</a></li>
+                                <li><a href="#">소모품/액세서리</a></li>
+                                <li><a href="#">공기질관리솔루션</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">고객지원</a>
+                            <ul class="sub">
+                                <li><a href="#">자주 묻는 질문</a></li>
+                                <li><a href="#">유지관리 가이드</a></li>
+                                <li><a href="#">A/S신청 및 조회</a></li>
+                                <li><a href="#">E-카달로그</a></li>
+                                <li><a href="#">사용설명서</a></li>
+                                <li><a href="#">서비스정책</a></li>
+                                <li><a href="#">구매처안내</a></li>
+                                <li><a href="#">고객의소리</a></li>
+                                <li><a href="#">환기/바스 대리점 개설문의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">홍보센터</a>
+                            <ul class="sub">
+                                <li><a href="#">공기질연구소</a></li>
+                                <li><a href="#">하츠NEWS</a></li>
+                                <li><a href="#">하츠서포터즈</a></li>
+                                <li><a href="#">홍보영상</a></li>
+                                <li><a href="#">하츠공식SNS채널</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 다국어지원, 메뉴버튼 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#"><svg aria-labelledby="languageIconTitle" color="#2329D6" class="lang" fill="none" height="100%" role="img" stroke="#ffffff" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" viewBox="0 0 24 24" width="48px" xmlns="http://www.w3.org/2000/svg"><title id="languageIconTitle"/><circle cx="12" cy="12" r="10"/><path d="M12,22 C14.6666667,19.5757576 16,16.2424242 16,12 C16,7.75757576 14.6666667,4.42424242 12,2 C9.33333333,4.42424242 8,7.75757576 8,12 C8,16.2424242 9.33333333,19.5757576 12,22 Z" stroke-linecap="round"/><path d="M2.5 9L21.5 9M2.5 15L21.5 15" stroke-linecap="round"/></svg></a></li>
+                        <li><a href="#" class="menu_btn"><svg fill="none" height="100%" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><rect fill="white" fill-opacity="0.01" height="48px" width="48px"/><path class="st0" d="M7.94977 11.9498H39.9498" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path class="st0" d="M7.94977 23.9498H39.9498" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path class="st0" d="M7.94977 35.9498H39.9498" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/></svg></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub_bg"></div>
+        </header>
+        <section class="sec1">
+            <!-- 메인슬라이드 - swiper plugin -->
+            <div class="swiper main">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide s1">
+                    <h1>하츠가 만드는 <br> 건강한 주방</h1>
+                    <p>후드</p>
+                  </div>
+                  <div class="swiper-slide s2">
+                    <h1>후드와 쿡탑을 <br> 한번에 자동으로!</h1>
+                    <p>쿠킹존</p>
+                  </div>
+                  <div class="swiper-slide s3">
+                    <h1>우리집 공기 <br> 하츠로 환기하세요.</h1>
+                    <p>환기</p>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section class="sec2 scrollSet">
+            <div class="center">
+                <div class="time ani firstAni">
+                    <h2>하츠제품</h2>
+                    <p>바로알기</p>
+                    <button type="button"><a href="#">바로가기</a></button>
+                    <!-- <hr>  선(라인) -->
+                </div>
+                <div class="road ani secondAni">
+                    <h2>우리집에맞는</h2>
+                    <p>하츠제품</p>
+                    <button type="button"><a href="#">바로가기</a></button>
+                    <!-- <hr>  선(라인) -->
+                </div>
+            </div>
+        </section>
+        <section class="sec3 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>SUPPORT</h2>
+                    <button type="button"><a href="#">자세히 보기</a></button>
+                </div>
+                <!-- swiper slide (support) -->
+                <div class="swiper support ani secondAni">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image img1"></div>
+                            <h3>A/S신청 및 조회</h3> 
+                            <p>불편하신 부분을 빠르게 처리해드리겠습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img2"></div>
+                            <h3>자주 묻는 질문</h3> 
+                            <p>궁금하신 부분을 빠르게 찾아 보실 수 있습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img3"></div>
+                            <h3>유지관리 가이드</h3> 
+                            <p>유지관리를 쉽고 빠르게 도와 드립니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img4"></div>
+                            <h3>유지관리 가이드2</h3> 
+                            <p>유지관리를 쉽고 빠르게 처리해드리겠습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img5"></div>
+                            <h3>유지관리 가이드3</h3> 
+                            <p>유지관리를 쉽고 빠르게 도와 드립니다.</p>
+                        </div>
+                    </div><!--swiper-wrapper  -->
+                    <div class="swiper-pagination"></div>
+                </div> <!--swiper  -->
+                <!-- prev 버튼, next 버튼  -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="sec4 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>HAATZ NEWS</h2>
+                    <button type="button"><a href="#">자세히 보기</a></button>
+                </div>
+                <!-- swiper slide (support) -->
+                <div class="swiper news ani secondAni">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image img1"></div>
+                            <h3>하츠의 새소식</h3> 
+                            <p>하츠, 욕실 인테리어 브랜드 ‘하츠 바스’로 새로운 패러다임 제시</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img2"></div>
+                            <h3>하츠의 새소식</h3> 
+                            <p>(주)하츠, 바스 사업 진출 사업설명회 성료</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img3"></div>
+                            <h3>하츠의 새소식</h3> 
+                            <p>하츠, ‘2022 핀업 디자인 어워드, 굿디자인 어워드’ 2관왕 달성</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img4"></div>
+                            <h3>하츠의 새소식</h3> 
+                            <p>하츠, 2022 친환경 기술진흥 및 소비 촉진 유공 ‘환경부장관표창’수상</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img5"></div>
+                            <h3>하츠의 새소식</h3> 
+                            <p>㈜하츠, 아파트 환기시스템 ‘무상 점검’ 행사 진행 </p>
+                        </div>
+                    </div><!--swiper-wrapper  -->
+                    <!-- pagination progress -->
+                    <div class="swiper-pagination"></div>
+                </div> <!--swiper  -->
+                <!-- prev 버튼, next 버튼  -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="sec5 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>투자정보</h2>
+                    <p>2023 HAATZ'S 투자정보</p>
+                    <div class="graph">
+                        <img src="img/img/free-icon-online-graph-8786091.png" alt="graph">
+                    </div>
+                </div>
+                <div class="statis ani secondAni">
+                    <ul>
+                        <li>
+                            <img src="img/img/free-icon.png" alt="">
+                            <p>주주 구성</p>
+                            <div class="number">
+                                <span class="count">5929</span>
+                                <b>주</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img/free-icon.png" alt="">
+                            <p>주가 분포</p>
+                            <div class="number">
+                                <span class="count">16773</span>
+                                <b>주</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img/free-icon.png" alt="">
+                            <p>주가 정보</p>
+                            <div class="number">
+                                <span class="count">5020</span>
+                                <b>주</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img/free-icon.png" alt="">
+                            <p>자산총계</p>
+                            <div class="number">
+                                <span class="count">104950</span>
+                                <b>원</b>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sec6 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>하츠 소개</h2>
+                    <p>이 세상의 존재하는 고객의 필요를 끊임없이 파악하고
+                        <br>더 나아가 선도하는,부가가치 창출을 통해 
+                        <br>이 땅에서 빛과 소금의 역할을 수행하며 
+                        <br>사회 변혁의 주체로서 긍정적이고 발전적인 
+                        <br>변화를 끊임없이 추구한다.</p>
+                    <div class="but">
+                        <button type="button"><a href="#">제품소개</a></button>
+                        <button type="button"><a href="#">고객지원</a></button>
+                    </div>
+                </div>
+            <!--  -->
+                <div class="online">
+                    <ul>
+                        <li class="on1 ani ani1"><a href="#"></a>빌트인기기</li>
+                        <li class="on2 ani ani2"><a href="#"></a>A/S신청</li>
+                        <li class="on3 ani ani3"><a href="#"></a>환기/기타</li>
+                        <li class="on4 ani ani4"><a href="#"></a>문의하기</li>
+                        <li class="on5 ani ani5"><a href="#"></a>후드</li>
+                        <li class="on6 ani ani6"><a href="#"></a>주방공기청정기</li>
+                        <li class="on7 ani ani7"><a href="#"></a>자주묻는질문</li>
+                        <li class="on8 ani ani8"><a href="#"></a>나의문의현황</li>
+                        <li class="on9 ani ani9"><a href="#"></a>쿡탑</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                <div class="footer1">
+                    <div class="f_logo">
+                        <img src="img/Img_logo/logo-11.png" alt="logo">
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">사용설명서 다운로드</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                            <li><a href="#">하츠몰</a></li>
+                        </ul>
+                    </div>
+                    <address>
+                        경기도 평택시 진위면 동부대로 202 <br>사업장주소 : 서울특별시 강남구 강남대로 456 한석타워 11/12층
+                    </address>
+                    <p>&copy;COPYRIGHT 2017 HAATZ INC. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="footer2">
+                    <div class="family_site">
+                        <a href="#">Family Site</a>
+                        <div class="family_list">
+                            <ul>
+                                <li><a href="https://www.haatzmall.com/shop/main/index.php">하츠몰</a></li>
+                                <li><a href="http://www.byucksan.com/">벽산</a></li>
+                                <li><a href="http://www.byucksanpaint.com/">벽산페인트</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/img/1_instar.png" alt="instar"></a></li>
+                            <li><a href="#"><img src="img/img/1_youtube.png" alt="youtube"></a></li>
+                            <li><a href="#"><img src="img/img/1_blog.png" alt="blog"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- top버튼 -->
+    <div class="top"><a href="#"><img src="img/img/top.png" alt="top arrow"></a></div>
+
+    <!-- 해상도 조절 -->
+    <script>
+    (function($) {
+            $.AdjustZoom = function(options) {
+            var option = { zoomRatio : 100 };
+            $.extend(option, options);
+            // 브라우저 배율이 100% 가 아닌 경우 처리
+            if(screen.logicalXDPI != screen.deviceXDPI) {
+                try {
+                //alert(screen.availWidth+", "+screen.logicalXDPI+", "+screen.deviceXDPI);
+                        var ratio = screen.logicalXDPI / screen.deviceXDPI;
+                        var ratio_reverse = screen.deviceXDPI / screen.logicalXDPI;
+                        $('body').css('zoom', ( ratio * option.zoomRatio)+'%');
+                        $('body').width(screen.availWidth * ratio_reverse );
+            }catch (e) {
+                alert("브라우저 배율 보정 중 오류가 발생하였습니다. 창을 닫은 후 다시 열어 주시기 바랍니다.");
+            }
+        }
+    };
+    })(jQuery);
+    </script>
+</body>
+
+</html>
