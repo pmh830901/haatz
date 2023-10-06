@@ -246,7 +246,7 @@ section .center {
     font-size: 20px;
 }
 section .center div button {
-    margin: 50px 35px;
+    margin: 5vw 3vw;
     padding: 10px 23px;
     background-color: #47a5ae;
     border-radius: 15px;
