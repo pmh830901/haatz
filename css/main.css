@@ -281,8 +281,8 @@ section .center div button a {
     display: none;
 }
 /* 버튼 숨김 */
-.sec3 .swiper .swiper-button-prev, .sec4 .swiper .swiper-button-prev, 
-.sec3 .swiper .swiper-button-next, .sec4 .swiper .swiper-button-next {
+.sec3 .swiper-button-prev, .sec4 .swiper-button-prev, 
+.sec3 .swiper-button-next, .sec4 .swiper-button-next {
     display: none;
 }
 
